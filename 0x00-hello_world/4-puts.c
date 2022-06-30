@@ -1,7 +1,7 @@
 #include<stdio.h>
 /** 
- * main - Entry point
- * Return: Always 0 (success)
+ * main - Execussion starts here
+ * Return: zero
  */
 int main(void)
 {
