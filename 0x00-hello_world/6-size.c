@@ -5,6 +5,16 @@
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art, \n");
+	int i;
+	long int l;
+	long long ll;
+	float f;
+	char c;
+
+	printf("Size of a char: %lu byte(s)\n", sizeof(c));
+	printf("Size of an int: %lu byte(s)\n", sizeof(i));
+	printf("Size of a long: %lu byte(s)\n", sizeof(l));
+	printf("Size of a long long: %lu byte(s)\n", sizeof(ll));
+	printf("Size of a float: %lu byte(s)\n", sizeof(f));
 	return (0);
 }
