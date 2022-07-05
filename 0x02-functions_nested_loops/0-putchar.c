@@ -1,11 +1,15 @@
 #include<stdio.h>
+#include "main.h"
+
 /**
  * main - entry point
- * Return: always 0
+ * Return: 0 on success
  */
 
 int main(void)
 {
-	printf("_putchar\n");
+	char c[] = "_putchar";
+
+	_putchar(*c);
 	return (0);
 }
