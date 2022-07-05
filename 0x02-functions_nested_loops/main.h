@@ -4,7 +4,7 @@ void print_alphabet(void);
 
 void print_alphabet_x10(void);
 
-int islower(int n);
+int _islower(int n);
 
 int isalpha(int n);
 
