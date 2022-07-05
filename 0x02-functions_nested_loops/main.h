@@ -1,12 +1,24 @@
-#include<unistd.h>
+int _putchar(char c);
 
-/**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- */
+void print_alphabet(void);
 
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
+void print_alphabet_x10(void);
+
+int islower(int n);
+
+int isalpha(int n);
+
+int print_sign(int n);
+
+int abs(int n);
+
+int print_last_digit(int n);
+
+void jack_bauer(void);
+
+void times_table(void);
+
+int add(int n1, int n2);
+
+void print_to_98(int n);
 
