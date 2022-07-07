@@ -15,6 +15,6 @@ void print_most_numbers(void);
 
 void more_numbers(void);
 
-int convert_day(int month, int day);
+void print_line(int n);
 
 #endif /* MAIN_H */
