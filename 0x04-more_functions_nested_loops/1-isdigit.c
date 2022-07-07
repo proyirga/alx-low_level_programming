@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * _isdigit - checks for digit, returns 1 if digit and otherwise  0 for non digit
+ * _isdigit - checks for digit, 
+ * returns 1 if digit and otherwise  0 for non digit
  * @c: parameter
  * Return: 1 or 0
  */
