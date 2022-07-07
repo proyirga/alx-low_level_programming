@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <stdio.h>
+int _putchar(char c);
 
 int _isupper(int c);
 
@@ -9,9 +9,9 @@ int _isdigit(int c);
 
 int mul(int a, int b);
 
-void positive_or_negative(int i);
+void print_numbers(void);
 
-int largest_number(int a, int b, int c);
+
 
 void print_remaining_days(int month, int day, int year);
 
