@@ -9,7 +9,7 @@ void swap_int(int *a, int *b);
 
 int _strlen(char *s);
 
-void print_remaining_days(int month, int day, int year);
+void _puts(char *str);
 
 int convert_day(int month, int day);
 
