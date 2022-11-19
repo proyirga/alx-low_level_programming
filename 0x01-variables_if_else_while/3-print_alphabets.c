@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * mani - Entry point
+ * main - Entry point
  * Return: 0 on success
  *
  * Description: Program that prints the alphabet in lowercase, and then
