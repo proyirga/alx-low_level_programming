@@ -32,10 +32,10 @@ int main(void)
 				putchar(j);
 				putchar(z);
 				if (i < 55)
-					{
-						putchar(',');
-						putchar(' ');
-					}
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
