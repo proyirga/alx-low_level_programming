@@ -12,20 +12,21 @@
 
 int main(void)
 {
-	char c, cc;
+	char c, z;
 
 	c = 'a';
-	cc = 'A';
+	z = 'z';
 
-	while (c <= 'z')
+	while (c <= z)
 	{
 		putchar(c);
 		c++;
-	}
-	while (cc <= 'Z')
-	{
-		putchar(cc);
-		cc++;
+		if (c == 'z')
+		{
+			putchar(c);
+			c = 'A';
+			z = 'Z';
+		}
 	}
 	putchar('\n');
 
