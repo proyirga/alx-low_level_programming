@@ -20,7 +20,7 @@ int binary_search(int *array, size_t size, int value)
 
 	if (size > 0)
 	{
-		while (low_index != high_index)
+		while (low_index <= high_index)
 		{
 			printf("Searching in array: ");
 			print_array(array, low_index, high_index);
